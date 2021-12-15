@@ -1,7 +1,3 @@
-
-const min = (a,b) =>{
-    return a>b?b:a;
+export function min (a,b){
+    return Number(a > b ? b : a);
 }
-
-console.log(min(9,4));
-console.log(min(4,9));

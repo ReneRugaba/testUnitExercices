@@ -13,7 +13,7 @@ describe("#chessboard()",()=>{
         assert.strictEqual(chess.length, 10 ,"Count not equal");
     })
 
-    it("should found same string",()=>{
+    it("should find same string",()=>{
         assert.match(chess[0],/# # # #/, "first regex not match");
         assert.match(chess[1],/ # # # #/,"second regex not  match");
     })

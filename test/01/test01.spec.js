@@ -4,7 +4,7 @@ import { pyramid } from '../../01/test01.js';
 
 describe("#pyramid",()=>{
     let arrayObject= pyramid();
-    it("should retyurn array",()=>{
+    it("should return array",()=>{
         assert.isArray(arrayObject,"Not array");
     })
 
@@ -12,11 +12,11 @@ describe("#pyramid",()=>{
         assert.strictEqual(arrayObject.length,7,"count don't work");
     })
 
-    it("should found object",()=>{
+    it("should find object",()=>{
         assert.isObject(arrayObject[0],"Not object");
     })
 
-    it("should found same string",()=>{
+    it("should find same string",()=>{
         assert.strictEqual(arrayObject[0].test,"#######","Not same string");
     })
 })
