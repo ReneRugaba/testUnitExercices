@@ -4,23 +4,23 @@ const assert = chai.assert;
 
 describe("#fizzBuzz",()=>{
     let arrayNumber = fizzBuzz();
-    it("chould number array",()=>{
+    it("should number array",()=>{
         assert.isArray(arrayNumber,"Not array");
     })
 
-    it("chould count array length",()=>{
+    it("should count array length",()=>{
         assert.strictEqual(arrayNumber.length,100, "Count !=");
     })
 
-    it("chould divide by 3",()=>{
+    it("should divide by 3",()=>{
         assert.equal(arrayNumber[2],"fizz","Not fizz");
     })
 
-    it("chould divide by 5",()=>{
+    it("should divide by 5",()=>{
         assert.equal(arrayNumber[4],"buzz","Not Buzz");
     })
 
-    it("chould divide by 3 and 5 ",()=>{
+    it("should divide by 3 and 5 ",()=>{
         assert.equal(arrayNumber[14],"FizzBuzz","Not FizzBuzz");
     })
 })
