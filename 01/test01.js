@@ -12,7 +12,7 @@ export function pyramid(){
         char+="#";
         testObject.test=char;
         arrayTest.push(testObject);
-        console.log(char);
+        // console.log(char);
     }
 
     return arrayTest;
