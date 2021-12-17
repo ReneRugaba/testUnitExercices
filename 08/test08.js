@@ -2,7 +2,7 @@
  * return a new reverse array
  * 
  * @param {any} tab 
- * @returns 
+ * @returns array
  */
 export function reverseArray(tab){
     return tab.map(item=>item).reverse();
@@ -12,7 +12,7 @@ export function reverseArray(tab){
  * return de same reverse array
  * 
  * @param {any} tab 
- * @returns 
+ * @returns array
  */
 export function reverseArrayInPlace(tab){
     return tab.reverse()
