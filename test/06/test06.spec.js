@@ -41,18 +41,18 @@ describe("#countBs()",()=>{
 
 describe("#countBs2()",()=>{
     it("should return count",()=>{
-        assert.strictEqual(countBs2("BundBunB",2),1,"Not equal with count");
+        assert.strictEqual(countBs2("BundBunB","B"),3,"Not equal with count");
     })
 
     it("should be true",()=>{
-        assert.isTrue(Boolean(countBs2("BundBunB",2)),"Not truthy");
+        assert.isTrue(Boolean(countBs2("BundBunB","n")),"Not truthy");
     })
 
     it("should be number",()=>{
-        assert.isNumber(countBs2("BundBunB",2),"Not number");
+        assert.isNumber(countBs2("BundBunB","u"),"Not number");
     })
 
     it("should not be Nan",()=>{
-        assert.isNotNaN(countBs2("BundBunB",2),"Not number");
+        assert.isNotNaN(countBs2("BundBunB","u"),"Not number");
     })
 })

@@ -30,7 +30,7 @@ export function countBs2(word,limit){
    let array = word.split("");
     let count = 0;
    for (let i = 0; i < array.length; i++) {
-       if(i < limit && array[i]=== "B")count++;
+       if( array[i]=== limit)count++;
    }
    
    return count;
