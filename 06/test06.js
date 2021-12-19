@@ -27,13 +27,13 @@ export function countBs(word){
  * @returns number
  */
 export function countBs2(word,limit){
-   let array = word.split("");
+    let array = word.split("");
     let count = 0;
-   for (let i = 0; i < array.length; i++) {
-       if( array[i]=== limit)count++;
-   }
-   
-   return count;
+    for (let i = 0; i < array.length; i++) {
+        if( array[i]=== limit)count++;
+    }
+    
+    return count;
 }
 
 
